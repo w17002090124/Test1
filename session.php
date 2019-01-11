@@ -8,6 +8,7 @@
     {
         $message['message']='errors';
         echo json_encode($message);
+        
     }else{
         echo json_encode($message);
     }
